@@ -1,0 +1,38 @@
+:root {
+  --color-primary: #EF4444;      /* Coral Red (Main Brand Colour) */
+  --color-secondary: #0EA5A3;    /* Aqua/Teal Accent */
+
+  /* Light mode colors */
+  --color-text: #0F172A;         /* Deep navy text */
+  --color-bg: #ffffff;           /* White background */
+
+  /* Dark mode colors */
+  --color-text-dark: #ffffff;    /* White text */
+  --color-bg-dark: #0F172A;      /* Dark navy background */
+
+  --color-overlay: rgba(0, 0, 0, 0.7);
+
+  --color-rating: #EF4444;       /* Red rating */
+}
+
+/* Text helpers */
+.text-primary { color: var(--color-primary) !important; }
+.text-light { color: var(--color-text) !important; }
+.text-dark { color: var(--color-text-dark) !important; }
+.text-rating { color: var(--color-rating); }
+.bg-rating { color: var(--color-primary); }
+
+/* Background helpers */
+.bg-primary { background-color: var(--color-primary) !important; }
+.bg-secondary { background-color: var(--color-secondary) !important; }
+.bg-light { background-color: var(--color-bg) !important; }
+.bg-dark { background-color: var(--color-bg-dark) !important; }
+.bg-overlay { background-color: var(--color-overlay) !important; }
+
+/* Shadow & Border */
+.shadow-primary {
+  box-shadow: 0 10px 15px -3px rgba(239, 68, 68, 0.5),
+              0 4px 6px -2px rgba(239, 68, 68, 0.2);
+}
+
+.border-primary { border: 2px solid var(--color-primary); }
