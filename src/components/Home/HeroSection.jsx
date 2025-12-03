@@ -54,7 +54,7 @@ const HeroSection = () => {
           data-aos="fade-up"
           data-aos-delay="300"
         >
-          We-map southwest 
+          We Map Southwest 
         </p>
 
         {/* CTA Button */}
